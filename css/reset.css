@@ -1,0 +1,97 @@
+/*Box sizing*/
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+ *,
+ *::before,
+ *::after{
+     box-sizing: inherit;
+ }
+
+ /*Body Defaults*/
+ body{
+     min-height: 100vh;
+     
+     text-rendering: optimizeSpeed;
+     line-height: 1.5;
+ }
+
+ /*Margins and Paddings*/
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ ul,
+ ol,
+ li,
+ p,
+ pre,
+ blockquote,
+ figure,
+ figcaption,
+ hr,
+ dl,
+ dd{
+     margin: 0;
+     padding: 0;
+ }
+
+ /*lists*/
+ ul{
+     list-style: none;
+ }
+
+ /*forms*/
+input,
+textarea,
+select,
+button{
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+
+ }
+
+ input,
+ textarea,
+ button{
+     width: 100%;
+ }
+ input,
+ textarea,
+ button{
+     border: 1px solid #ccc;
+ }
+ 
+button{
+    padding: 0.7em, 1em;
+    line-height: inherit;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+button * {
+    pointer-events: none;
+  }
+
+  /*Media*/
+
+  img,
+  svg,
+  iframe,
+  video,
+  object,
+  embed{
+      display: block;
+      max-width: 100%;
+  }
+
+  /*Tables*/
+  table{
+      table-layout: fixed;
+      width: 100%;
+  }
